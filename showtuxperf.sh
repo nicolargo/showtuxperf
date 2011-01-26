@@ -11,5 +11,7 @@ VERSION="0.1"
 
 dmidecode -s system-product-name
 dmidecode -s system-version
-hdparm -tT /dev/sda1
+lscpu - cat /proc/cpuinfo
+lspci | grep VGA
+uname -a
 
